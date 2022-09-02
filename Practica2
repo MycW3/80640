@@ -4,22 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MLH</title>
+    <title>Practica 2</title>
 </head>
 <body>
-    <h1>Major Legue Hacking</h1>
+    <h1>Receta: Huevos con jamón</h1>
     <img src="https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png" alt="mlh" width="500" height="200"><br>
-    <h3><b>Major legue hacking es una web para poder particiar en hackathones</b></h3>
+    <h3><b>Receta para preparar huevos con jamón</b></h3>
+    <b> Ingredientes: </b>
     <ul>
         <li>
-            <a href="https://challenges.mlh.io/">¿Como participar?</a>
+            <b> 2 huevos.</b>
         </li>
         <li>
-            <a href="https://mlh.io/about">About</a>
+            <b> 4 rebanadas de jamón de pavo.</b>
         </li>
         <li>
-            <a href="https://mlh.io/seasons/2023/events">Eventos</a> 
+            <b> Aceite.</b>
+        </li>
+        </br>
+        <li>
+            <a href="https://www.kiwilimon.com/receta/desayunos/huevos/huevos-revueltos/huevos-revueltos-con-jamon">Más información</a> 
         </li>
     </ul>
+    <b> Preparación: </b> </br>
+    <b> Batir los huevos, agregar una pizca de sal y pimienta. Cortar el jamón en cuadritos y agregarlo al huevo batido, revolver bien. 
+    En un sartén poner un poco de aceite en aerosol y agregar la mezcla a fuego medio-alto. Revolver y servir. </b>
 </body>
 </html>
