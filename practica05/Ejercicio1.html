@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script> /*javascript*/
+        function cambiarColor1(color) {
+            console.log("El color recibido es:", color);/*pintar información ne la consola*/
+            let e = document.getElementById("texto1"); /*el "let" define la variable*/
+            e.style.color = color;
+        }
+        function cambiarColor2(color) {
+            console.log("El color recibido es:", color);/*pintar información ne la consola*/
+            let e = document.getElementById("texto3"); /*el "let" define la variable*/
+            e.style.color = color;
+        }
+        function cambiarColores(color) {
+            let c = document.getElementsByTagName("p")
+           /* for (let index = 0; index < c.length; index++) {
+                c[index].style.color = color
+            }*/
+            var arr = [].slice.call(c); //convertir la colección a un arreglo
+            c.forEach(element => { //función anonima "no tiene nombre" que sede un control / metodo de los tipos de arreglo
+                console.log(element)
+            });
+        }
+    </script>
+</head>
+<body>
+    <p id="texto1">simple texto1</p>
+    <p id="texto2">simple texto2</p>
+    <p id="texto3">simple texto3</p>
+    <button onclick="cambiarColor1('blue'); cambiarColor2('green')">azul</button>
+    <button onclick="cambiarColor1('red'); cambiarColor2('yellow')">rojo</button>
+    <button onclick="cambiarColores('orange');">colores</button>
+</body>
+</html>
