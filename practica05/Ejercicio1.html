@@ -20,11 +20,20 @@
             let c = document.getElementsByTagName("p")
            /* for (let index = 0; index < c.length; index++) {
                 c[index].style.color = color
-            }*/
+            }
             var arr = [].slice.call(c); //convertir la colección a un arreglo
             c.forEach(element => { //función anonima "no tiene nombre" que sede un control / metodo de los tipos de arreglo
                 console.log(element)
-            });
+            });*/
+            for (let x in c) { /* "Forin"interar a travez de propiedades */
+                if (Object.hasOwnProperty.call(c, x)) { 
+                    c[x].style.color = "blue";
+                }
+            }
+            /* "Forof"interar a travez de valores */
+            for (const iterator of object) {
+                
+            }
         }
     </script>
 </head>
