@@ -51,8 +51,11 @@ function buscar(){
     listaTodo= document.getElementsByTagName('li');
     for (let li in listaTodo) {
         if(Object.hasOwnProperty.call(listaTodo, tarea)){//busca propiedades que corresponda 
-            //console.log(listaTodo[tarea].childNodes[0])
-            if(leer() == listaTodo[tarea].childNodes[0]){
+            a = listaTodo[tarea].childNodes[0]
+            b = leer()
+            //sconsole.log ("a", typeof a,textContent, "b", typeof b)
+            console.log(listaTodo[tarea].childNodes[0].valuesOF)
+            if(leer() == listaTodo[tarea].childNodes[0].valuesOF()){
                 alert("ya existe")
             }else{
                 alert("no existe")
